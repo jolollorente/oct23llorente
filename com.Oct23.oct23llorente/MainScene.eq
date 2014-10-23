@@ -23,11 +23,9 @@ public class MainScene : SEScene
         rsc.prepare_image("mynebula","grass",w,h);
         bg= add_sprite_for_image(SEImage.for_resource("mynebula"));
         bg.move(0,0);
-        add_entity(new MyNewClass());
-		add_entity(new MyNewClass());
-	    add_entity(new Mycat());
 
-			
+      add_entity(new MyNewClass());
+	    add_entity(new Mycat());
        
     }
     public void update (TimeVal now, double delta)
